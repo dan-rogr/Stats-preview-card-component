@@ -1,74 +1,79 @@
-**Stats Preview Card Component**
+# Stats Preview Card Component
 
-This is a solution to the Stats Preview Card Component challenge. The goal of this project was to build a responsive card component that displays business analytics statistics while maintaining a clean and modern layout across different screen sizes.
+A responsive card component that displays business analytics statistics with a clean, modern layout that adapts across desktop, tablet, and mobile screen sizes.
 
-**Overview**
+---
 
-This project features a responsive stats preview card that includes:
+## Overview
 
-A headline with highlighted text
-A descriptive paragraph
-Three statistical metrics
-A responsive image with a color overlay
-A layout that adapts to desktop, tablet, and mobile screens
+This component features:
 
-The component was designed to be visually balanced and user-friendly, ensuring a smooth experience across different devices.
+- A headline with highlighted text
+- A descriptive paragraph
+- Three statistical metrics
+- A responsive image with a color overlay
+- A layout that adapts to desktop, tablet, and mobile screens
 
-**Built With**
-HTML5
-CSS3
-CSS Grid
-Flexbox
-Media Queries
-Google Fonts (Inter)
+The component was designed to be visually balanced and user-friendly, ensuring a smooth experience across all devices.
 
-**Approach**
+---
 
-To build this component, I followed a structured and responsive approach focused on layout organization, visual consistency, and adaptability across screen sizes.
+## Built With
 
-**Layout Structure**
+- HTML5
+- CSS3
+- CSS Grid
+- Flexbox
+- Media Queries
+- Google Fonts (Inter)
 
-The main layout was created using CSS Grid to divide the card into two sections: the text content and the image. This allowed for a clean two-column layout on desktop screens while keeping the design flexible for smaller devices. The card was centered vertically on the page to improve presentation and ensure consistent alignment across different screen sizes.
+---
 
-**Image Overlay**
+## Approach
 
-To achieve the purple overlay effect on the image, I used positioning and layering techniques. This allowed me to apply a color overlay without modifying the original image, keeping the design flexible and reusable.
+### Layout Structure
 
-**Typography and Styling**
+The main layout was built using **CSS Grid** to divide the card into two sections: the text content and the image. This enabled a clean two-column layout on desktop while staying flexible for smaller screens. The card is centered vertically on the page for consistent alignment across devices.
 
-Typography was implemented using the Inter font from Google Fonts to create a modern and readable design. Color values were defined using HSL for consistency and easier customization. Spacing and padding were carefully applied to maintain visual balance between the different sections of the card.
+### Image Overlay
 
-**Statistics Section**
+The purple overlay effect was achieved using positioning and layering techniques, applying the color without modifying the original image — keeping the design flexible and reusable.
 
-The statistics section was structured using Flexbox to distribute the three metrics evenly. This ensured proper alignment and spacing across different screen sizes. Each statistic includes a number and a label, organized to maintain readability and visual hierarchy.
+### Typography & Styling
 
-**Responsive Design**
+- **Font:** Inter (Google Fonts) for a modern, readable look.
+- **Colors:** Defined using HSL values for consistency and easy customization.
+- **Spacing:** Carefully applied to maintain visual balance across all sections.
 
-The design was made fully responsive using media queries and layout adjustments.
+### Statistics Section
 
-**Tablet**
-Font sizes were slightly reduced.
-Spacing was adjusted.
-Layout maintained two columns.
-**Mobile**
-Layout switched to a single column.
-Image moved to the top of the card.
-Text centered for better readability.
-Statistics section stacked vertically.
+The statistics section uses **Flexbox** to distribute the three metrics evenly, ensuring proper alignment and spacing. Each stat includes a number and a label, maintaining clear readability and visual hierarchy.
 
-These adjustments ensured that the component remained visually appealing and easy to use on all devices.
+### Responsive Design
 
-**What I Learned**
+The layout is fully responsive using media queries:
 
-Through this project, I improved my skills in:
+| Breakpoint  | Behavior                                                                   |
+| ----------- | -------------------------------------------------------------------------- |
+| **Desktop** | Two-column grid layout, full font sizes                                    |
+| **Tablet**  | Two-column layout maintained, font sizes and spacing slightly reduced      |
+| **Mobile**  | Single column, image moves to top, text centered, stats stacked vertically |
 
-CSS Grid layout design.
-Flexbox alignment.
-Responsive design techniques.
-Layout organization.
-Creating overlays using CSS.
-Typography and spacing improvements.
+---
 
-**Author**
+## What I Learned
 
-Daniel Rojas
+Through this project, I strengthened my skills in:
+
+- CSS Grid layout design
+- Flexbox alignment
+- Responsive design techniques
+- Layout organization
+- Creating overlays with CSS
+- Typography and spacing
+
+---
+
+## Author
+
+**Daniel Rojas**
