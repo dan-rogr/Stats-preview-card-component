@@ -47,14 +47,14 @@ The statistics section was structured using Flexbox to distribute the three metr
 The design was made fully responsive using media queries and layout adjustments.
 
 **Tablet**
-Font sizes were slightly reduced
-Spacing was adjusted
-Layout maintained two columns
+Font sizes were slightly reduced.
+Spacing was adjusted.
+Layout maintained two columns.
 **Mobile**
-Layout switched to a single column
-Image moved to the top of the card
-Text centered for better readability
-Statistics section stacked vertically
+Layout switched to a single column.
+Image moved to the top of the card.
+Text centered for better readability.
+Statistics section stacked vertically.
 
 These adjustments ensured that the component remained visually appealing and easy to use on all devices.
 
@@ -62,12 +62,12 @@ These adjustments ensured that the component remained visually appealing and eas
 
 Through this project, I improved my skills in:
 
-CSS Grid layout design
-Flexbox alignment
-Responsive design techniques
-Layout organization
-Creating overlays using CSS
-Typography and spacing improvements
+CSS Grid layout design.
+Flexbox alignment.
+Responsive design techniques.
+Layout organization.
+Creating overlays using CSS.
+Typography and spacing improvements.
 
 **Author**
 
